@@ -1,0 +1,30 @@
+{
+	"name": "ohdark",
+	"displayName": "OhDark Theme",
+	"description": "OhDark",
+	"version": "1.0.0",
+	"author": {
+		"name": "Cassio Maciel",
+		"url": "https://github.com/cassiomaciell/ohdark"
+	},
+	"repository": {
+		"directory": "https://github.com/cassiomaciell/ohdark"
+	},
+	"license": "MIT",
+	"publisher": "CassioMaciel",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "OhDark Orange",
+				"uiTheme": "vs-dark",
+				"path": "./themes/OhDark-color-theme.json"
+			}
+		]
+	}
+}
