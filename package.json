@@ -2,10 +2,14 @@
 	"name": "ohdark",
 	"displayName": "OhDark Theme",
 	"description": "OhDark",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"author": {
 		"name": "Cassio Maciel",
 		"url": "https://github.com/cassiomaciell/ohdark"
+	},
+	"scripts": {
+		"build": "vsce package",
+		"publish": "vsce publish"
 	},
 	"repository": {
 		"directory": "https://github.com/cassiomaciell/ohdark"
@@ -13,7 +17,7 @@
 	"license": "MIT",
 	"publisher": "CassioMaciel",
 	"engines": {
-		"vscode": "^1.63.0"
+		"vscode": "^1.67.2"
 	},
 	"categories": [
 		"Themes"
@@ -24,7 +28,15 @@
 				"label": "OhDark Orange",
 				"uiTheme": "vs-dark",
 				"path": "./themes/OhDark-color-theme.json"
+			},
+			{
+				"label": "OhDark Pro Purple",
+				"uiTheme": "vs-dark",
+				"path": "./themes/OhDarkPro-color-theme.json"
 			}
 		]
+	},
+	"devDependencies": {
+		"vsce": "^2.8.0"
 	}
 }
