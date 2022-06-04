@@ -8,7 +8,8 @@
 		"url": "https://github.com/cassiomaciell/ohdark"
 	},
 	"scripts": {
-		"build": "vsce package"
+		"build": "vsce package",
+		"ex:publish": "vsce publish"
 	},
 	"repository": {
 		"directory": "https://github.com/cassiomaciell/ohdark"
