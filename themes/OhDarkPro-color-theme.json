@@ -36,6 +36,12 @@
 			}
 		},
 		{
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#FFCB6B"
+			}
+		},
+		{
 			"name": "unison punctuation",
 			"scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
 			"settings": {
@@ -748,26 +754,20 @@
 				"foreground": "#676BB6"
 			}
 		},
-    {
-      "name": "Punctuation Definition Tag",
-      "scope": [
-        "punctuation.definition.tag.begin",
-        "punctuation.definition.tag.end",
-      ],
-      "settings": {
-        "foreground": "#C678DD",
-      }
-    },
-    {
-      "name": "Punctuation String Tag",
-      "scope": [
-        "punctuation.definition.string.begin",
-        "punctuation.definition.string.end"
-      ],
-      "settings": {
-        "foreground": "#01B176",
-      }
-    },
+		{
+			"name": "Punctuation Definition Tag",
+			"scope": ["punctuation.definition.tag.begin", "punctuation.definition.tag.end"],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "Punctuation String Tag",
+			"scope": ["punctuation.definition.string.begin", "punctuation.definition.string.end"],
+			"settings": {
+				"foreground": "#01B176"
+			}
+		},
 		{
 			"name": "Strings",
 			"scope": "string",
